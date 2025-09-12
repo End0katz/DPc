@@ -1,0 +1,20 @@
+# Tabs
+
+What does your tab character do?
+[*] Insert a \t
+[ ] Insert 2 spaces
+[ ] Insert 4 spaces
+[ ] Insert 8 spaces
+[*] Insert spaces to take you to next tab stop ([ ] 2   [*] 4   [ ] 8)
+[*] Move selection to next item
+[ ] Move item to next selection
+[ ] Move item to next universe
+[ ] Move universe to next item
+[ ] Get rebinded to esc so that you can use vi the way intended it
+[ ] Reconfigure all your configs
+[ ] Reconfig all your configures
+[ ] Autocompl	=ete
+[ ] Detect when you type = instead of \b
+
+<Title Text>:
+[ ] Write title text for you

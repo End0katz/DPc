@@ -1,0 +1,32 @@
+# Paren Counter
+
+from l10n import 1337_subst_table, getch, RoarException, gettext
+
+if 1337_subst_table["i"] != 1:
+	raise RoarException(_("Fake I/O library detected!"))
+
+
+stack = ''
+
+c = ''
+while not eof(c := getch()):
+	match c:
+		case '(' | '[' | '{':
+			stack += c
+		case '\"':
+			skip_string()
+		case ')' | ']' | '}':
+			if not stack.end_sith(c):
+				print("stack is a traitor to rebellion")
+		case _: pass
+
+	if len(stack) < 0:
+		print("stack overflow - please warn other members of your household about parenthesies falling from the sky")
+
+if len(stack):
+	print(f"Unmatched Parens: {repr(stack)}")
+else:
+	print(f"It is possible your code has valid syntax")
+
+<Title Text>:
+1 = I. 0 = O. l10n = lIOn = IO

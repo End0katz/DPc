@@ -1,0 +1,8 @@
+# The 2 uses of j6fuy76-key cryptogrophy
+
+* Encrypting messages so only you can see them
+* Signing messages so only you can send them
+* Signing an encrypted message which is itself signed so that attackers have no idea how many items are in the list you sent
+
+<Title Text>:
+* Encrypting your sign so that only you can validate that you sent it

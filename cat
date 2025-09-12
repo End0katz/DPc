@@ -1,0 +1,35 @@
+# CAT variants
+
+cat: Takes data from any arguments (as files), or stdin if non given, and writes it to stdout.
+tac: cat but reverses line order
+rev: cat but reverses order in lines
+ver: tac | rev
+dog: Takes data from stdout and writes it to any given arguments (as files), or stdin if non given.
+god: Writes universe to stdout - make sure to redirect to /dev/sda, /dev/uni or something of the like.
+rat: Provides way to interface with ratd.
+ratd: Remote Access Trojan Demon. On most distros, is just ssh with the libxz backdoor.
+ratdd: Remote Access Trojan Demon Daemon. Responsible for setup, config and monitoring of ratd.
+ratddd: Remote Access Trojan Demon Daemon Destroyer. Very targeted antivirus.
+catd: Daemon to concatinate ratddd memory to NSA's servers.
+tacd: Daemon to concatinate NSA memory to ratddd's servers.
+revd: Daemon to reverse all pointers that get dereferenced.
+head: Daemon to send http HEAD requests to ALL ports.
+xd: Uses the power of acronyms to cd quickly.
+Xd: Alternative to Xorg.
+Xdd: Daemon that manages Xd and reports crashes to NSA.
+Y11: Alternative to X11 that uses a p2p model instead of client-server.
+Z11: Alternative to X11 that uses DNS to find server (uses NSA DNS server by default).
+W11: Windowing system that uses quantum mechanics, and is in a superposition between X11, Y11 and Z11.
+Vayland: Alternative to Wayland that supports greater configuration if your RAM chips allow arbitrary bit flips.
+Uayland: Utility that allows compatible RAM chips to apply remapping, bit flips, etc very easily.
+Yayland: P2P version of Vayland
+Zayland: P2P version of Uayland (somehow)
+Zaylan: Version of Zayland that doesn't daemonize.
+Zaylandd: Version of Zayland that interfaces directly with ratdd.
+-: takes data from stdin/out/err and writes to any arguments (as hostnames or domain names) by SSHing into DNS servers.
+less: Reduces chaos of linux ecosystem by using paging and reversal to go back up this list to the part where it was normal.
+more: Increases chaos by using unimplementations to prevent going back.
+tail: Takes data from any arguments (as files), or stdin if not given, and writes the last n lines to stdout.
+
+<Title Text>:
+nano: allows you to edit the source code or (pro) binary for more to allow going back.

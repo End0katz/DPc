@@ -1,0 +1,15 @@
+# Encodings
+
+
+ASCII	No £
+UTF-8	Good, but BOM or not?
+UTF-16	This is why we can't have infinite planes
+UTF-32	Wastes 1 byte 3 bits (redundant)
+UTF-24	Wastes 3 bits
+UTF-21	Perfection
+UTF-20	Those planes probably aren't assigned anyway
+BRAIN	Data is encoded in human brain - minimal space usage
+/.*/	We have conclusively covered all (good) encodings. As such, any encodings not listed above are irrelivant
+
+<Title Text>:
+utf8	UTF-8's younger cousin

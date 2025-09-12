@@ -1,0 +1,26 @@
+# Backslashes
+
+String:
+	Hello, World!
+
+String Literal:
+	"Hello, World!\n"
+
+Re to match string literal:
+	/"Hello, World!\\n"/
+
+Sed command to delete all lines containing that re:
+	sed -e "/\"Hello, World!\\\\n\"/d"
+
+C program to run that sed command:
+	#include <stdlib.h>
+	int main(int argc, char* argv[]) {
+		system("sed -e \"/\\\"Hello, World!\\\\\\\\n\\\"/d")
+	}
+
+
+Regex to match the compiled version of that c program, with some html added somwhere randomly along the pipeline:
+	/.../
+
+<Title Text>:
+Regex to check for a 3-character string: /.../, but for a different reason.

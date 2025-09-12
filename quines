@@ -1,0 +1,29 @@
+# Quines
+
+Error quine: Code that uses errors to display source code.
+
+  File "/home/user/py/misc/quine.py", line 1
+    File "/home/user/py/misc/quine.py", line 1
+IndentationError: unexpected indent
+
+
+Clever quine: Code that uses tricks and such to display source code.
+
+
+const char* f = "const char* f = %c%s%c; main() {printf(f,34,f,34,10);}%c"; main() {printf(f,34,f,34,10);}
+
+
+Absurd quine:
+
+#!/usr/bin/hq9+
+hhhhhh999999+++++q
+
+#!/usr/bin/tee
+Hello!
+This just overwrote the contents of any file
+you passed as an argument!
+Enjoy! :)
+	- /usr/bin/tee
+
+<Title Text>:
+Cheating quine: Uses file I/O to read source

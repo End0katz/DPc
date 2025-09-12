@@ -1,0 +1,23 @@
+#!/usr/bin/sed -f
+
+s/\bHello/Hi/g
+s/\bWorld/Planet/g
+
+s/I've never had problems with regex before/I've been using regex wrong, haven't I/g
+s/This Is A Regex\.//g
+
+
+s/job/glob/g # I have a new glob for you!
+
+# Regex Improvement
+s/(.+)?/.*/g
+s/.?.?/.{,2}/g
+s/\/\\/\//:\/:/
+
+# Glob 2 Re
+s/\*/.*/
+s/\./\./
+s/\?/./
+
+<Title Text>:
+s/.*/I'm the creeper - catch me if you can!/g

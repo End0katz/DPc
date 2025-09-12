@@ -1,0 +1,10 @@
+#!/bin/cat
+
+Hello!
+This is a program written in the cat programming language.
+In cat, every character prints itself to stdout.
+
+The cat interpreter will run in interactive mode (stdin) if no input is provided.
+
+<Title Text>:
+You  type ^D. It does not exit. Maybe try Ctrl+D next time, instead of Shift+6 Shift+D.

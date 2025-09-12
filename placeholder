@@ -1,0 +1,10 @@
+# Placeholders
+
+Sometimes, It can be fun to insert placeholders in your text for comedic effect:
+
+Examples:
+	Curse you, <person at fault here>!!!
+	And whose fault is that? %s's!
+
+<Title Text>:
+'"Hello, %s!", name' 'What?' f'Hello, {name}'

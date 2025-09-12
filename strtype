@@ -1,0 +1,48 @@
+# Types of string
+
+
+* cstr
+	System encoding
+	Terminate with \0
+	Widely-supported
+	
+* astr
+	ASCII
+	Terminated by last character having high bit set
+	An empty string is encoded with a \0 as the only character
+* ustr
+	UTF-8
+	Termiate with \0
+	Use \xFF to add a null character into the string without terminating
+
+* lstr
+	System encoding
+	Split into multiple blocks
+	Each block has length as a uint8_t
+	If block length == 255, is followed by new block
+	Otherwise, the block terminates the string
+	Hard to construct dynamically
+	Edge case with multi-byte characters over block boundaries
+* fstr
+	System encoding
+	Use memfd_create for allocation
+	An fstr is a fd containing the string
+	Very small memory footprint (ignore that memfd_create is in memory)
+
+* pstr
+	Encoded as a png file
+	Use OCR to read data
+* _str
+	One of strings above containing only "_"
+	Use gettext to read string
+	Switch locale for different strings
+
+* Cstr
+	Constant
+	Actually has infinite variants
+	Takes 0 bytes
+	Cstr-0 = "", Cstr-1 = "\0", etc
+	System encoding
+
+<Title Text>:
+* Xstr: one of the strings above, with a single character used to determine type. In case of _str, the _ is ommited.

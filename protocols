@@ -1,0 +1,14 @@
+# What type your server might be, ranked by weirdness
+
+https	Website. website.
+http	No passwords, please.
+ssh	LET ME IN!! LET ME IN!!!!
+SMTP	Don't you normally just use external hosts?
+FTP	Which is what exactly?
+IMAP	Self-hosting gone too far.
+DNS	A/AAAA for www.example.com, please.
+X11	Is that even a protocol?
+Raw TCP	You are very likely to be eating a grue sandwich.
+
+<Title Text>:
+Raw socket: I didn't know you spoke base 256

@@ -1,0 +1,16 @@
+# Linux distros and other OSes
+
+Windows			Ah, I see you have borrowed a computer from MS. Oh, you think it's you computer? ha.
+OS X			I mean, it's a start.
+Ubuntu			Welcome.
+Debian			Level Up. Add 1 point to STR, CON, DEX, WIS, CHR or INT
+Fedora			IDK, is it nice?
+Arch			Are you using it for up-to-date software, customizations or bragging rights.
+Gentoo			You... actually did it? Well Done!
+Custom Distro		A power user
+No OS- Just Kernel	A TRUE power user
+UEFI			Probably smart enough to use lisp
+BIOS			Isn't that obsolete?
+
+<Title Text>:
+CPU Microcode		So you deleted your laptop and instead of getting a new one, you just used it as a weird flex?

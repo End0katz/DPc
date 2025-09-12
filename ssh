@@ -1,0 +1,6 @@
+# SSH
+
+'ssh localhost' looks pointless, but is a great(ish) way to test that you didn't just render your server unconnectable.
+
+<Title Text>:
+Oh shoot, I forgot to copy the private key from the keygen back to my laptop. NOOO!

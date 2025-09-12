@@ -1,0 +1,13 @@
+# The halting problem
+
+I don't understand why the halting problem is so hard.
+Eventually, users ^C. Computers poweroff. Batteries deplete.
+CPUs derode. RAM disintigrates. Suns expand and engulf processes in flame and fusion.
+
+HALTING PROBLEM: EXISTENTIAL EDITION:
+
+def halts(f):
+	return True
+
+<Title Text>:
+def paradox(f): while halts(f): pass

@@ -1,0 +1,11 @@
+# Pronouncing unix paths
+
+/dev		"slash dev"
+/dev/null	"devnull", "slash dev slash null"
+/bin		"slash bin"
+/usr/bin	"usr bin"
+/etc/hosts	"slash ex slash hosts"?! "slash ets slash hosts"?! "slash et slash hosts?" "slash e ("eh") slash hosts"?! "slash slash hosts"
+
+
+<Title Text>:
+/home/user/etc/hosts	"home user ȅ̴̺͓͎̣͖̌̾̏͒̓̾̊̽̑̋͗̆̓̔t̷̠̔̒͛͗͂̓̄̎̚͠c̸̢̢̘̲͔͎̬̤̤̱̀̈̈́͠ hosts"

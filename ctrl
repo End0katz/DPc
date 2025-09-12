@@ -1,0 +1,25 @@
+# Control
+
+Short notation:	[symbols]* <letter, upercase>				e.g. ^D >X ^>V
+Long notation:	[modifier letters, upercase]* "-" <letter, upercase>	e.g. C-D M-X CM-V
+
+Mods	Short	Long	Function
+	C	C	Type lowercase letters
+Ctrl	^C	C-C	Run functions
+Meta	>C	M-C	Run other functions
+C+M	^>C	CM-C	Run even more functions
+Shift	!C	U-C	Type uppercase letters
+C+S	^!C	CU-C	Run AlTeRnAtIvE functions
+M+S	>!C	MU-C	Run META functions (operate on other functions)
+C+M+S	^>!C	CMU-C	Build suspense before you see what the next key is
+Emoji	:C	E-C	Type emoticons (e.g. :D is smiley, E-P is silly, :X is that shrug emoticon)
+C+E	^:C	CE-C	Type combining diacritic
+M+E	>:C	ME-C	Type letters with diacritics
+C+M+E	^>:C	CME-C	Teach you how to cure C
+S+E	!:C	UE-C	Type emojis
+C+S+E	^!:C	CUE-C	Tell you when to do C
+M+S+E	>!:C	MUE-C	Type emoji combining modifiers
+C+M+S+E	^>!:C	CMUE-C	Lets you type in binary
+
+<Title Text>:
+Hyper	#SPACE	H-SPACE	Lets you escape from persuing spaceships. Requires functional hyper-kernel-driver

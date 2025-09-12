@@ -1,0 +1,17 @@
+# DTP - Directory Transport Protocol
+
+(DTP operates over http over tls over tcp over ip over ethernet over physics)
+
+UPLOADING A FILE
+
+1) PUT $server/$path. The request body should be an ext4 partition containing the folder as <mount>/<fname>
+2) Make sure to delete the directory on the local machine - this is a TRANSFER protocol, not SHARING.
+
+RETREIVING A FILE
+
+1) GET $server/$path. The response body should be an ext4 partiition containing the folder as <mount>/<fname>
+2) The server will delete the directory. again, this is a TRANSFER protocol.
+
+<Title Text>:
+
+Make sure to purge all backups when you transfer!

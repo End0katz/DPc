@@ -1,0 +1,11 @@
+# Strings
+
+printf("Hello, World!\n\0\u202e\t\T-800		\"Sarah Connor\"<- totally not a secret area\033[31;1mRUN\033[m</p>\n<br />")
+
+>>> make
+>>> ./a.out
+Hello, World!
+>>> git add --all --yes --ALL --including-.gitignored --including-.git
+
+<Title Text>:
+--including-.. --including-/ --including-/-on-my-other-laptop

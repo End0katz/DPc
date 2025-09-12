@@ -1,0 +1,26 @@
+# Technique for compressing matrices of natural numbers
+
+COMPRESSION (mat)
+
+Matrix: [[0, 1], [2, 3]]
+Compression to vector: [2^0 * 3^1, 2^2 * 3^3] = [3, 108]
+
+Vector: [3, 108]
+Compression to int: 2^3 * 3^108 ~= 2.7051135e+52 (give or take a couple million)
+
+
+
+DECOMPRESSION (int)
+
+Int: 22500 = 2^2 * 3^2 * 5^5
+Decompression to vector: [2, 2, 5]
+
+Vector: [2, 2, 5] = [2^1 * 3^0 * 5^0,	2^1 * 3^0 * 5^0,	2^0 * 3^0 * 5^1]
+Decompression to mat: [[1, 0, 0], [1, 0, 0], [0, 0, 1]]
+
+
+NOTE: You cannot decompress an integer that has a prime non-factor followed by a prime factor.
+	If this means you cannot turn your age into a matrix, please take it up with time.
+
+<Title Text>:
+Any zeroes at the top of the mat are lost during compression. To combat this, use a different algorithm.

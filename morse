@@ -1,0 +1,21 @@
+# Morse
+
+Morse is more of a hash than a cipher/encoding, and it's not a very good hash.
+
+$ venv/bin/activate
+(venv) $ python3
+>>> import morse as mrs
+>>> mrs.enhash("SOS")
+'...---...'
+>>> mrs.dehash('...---...')
+QuantumSuperposition(
+	'SOS', 50%
+	'EEETTTEEE', 25%
+	'IA7', 12.5%
+	...
+)
+>>> mrs.dehash(mrs.enhash('SOS')).observe()
+'IA7'
+
+<Title Text>:
+.--.-..-...-.-...--.-.=-.=-..-=-.-=-.+-=-..--=.,-,,-,,---,;-;D

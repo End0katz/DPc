@@ -1,0 +1,59 @@
+# Blobhash
+
+// Generate a mat8x8 containing 0s and 1s based on the bits in bits.
+// Each set of 8 bits (char) is 1 row.
+// htonl is called before applying.
+// e.g. 2 creates [[0, <repeat x7>], <repeat x6>, [0, 0, 0, 0, 0, 0, 1, 0]]
+void bitmat_gen(struct mati8x8* mat, uint64_t bits);
+
+// Generate a column vector where each column coresponds to 1 bit in bits.
+//  e.g. 2 creates [[0], [0], [0], [0], [0], [0], [1], [0]]
+void bitmat_gencolvec(struct mati8x8* vec, uint8_t bits);
+
+void mat_get(struct mat8x8* mat, uint8_t col, uint8_t row);
+
+void mat_mul8x8_8x1(struct mat8x8* left, const struct mat8x1* rght);
+void mat_mod2(struct mat8x8* mat);
+
+// Rest of matrix.h ommited for brevity
+
+/*
+ * Blob hashing algorithm.
+ *
+ * dt: data to hash
+ * sz: sizeof(dt)
+ * k0: Key 0
+ * nk: Number of the key to use. 0 for k0, 1 for k1, etc
+ * sd: Seed
+ * op: Where to put data
+ * os: sizeof(op)
+ */
+void blobhash(const unsigned char* dt, size_t sz, uint64_t k0, size_t nk, uint8_t sd, unsigned char* op, size_t os) {
+	uint64_t* k = malloc((nk + 1) * sizeof(uint64_t));
+	k[0] = k0;
+
+	for (size_t n = 1; n < nk; n++) {
+		struct mati8x8 bitmat;
+		bitmat_gen(bitmat, k[n-1]);
+		struct mati8x1 bitvec;
+		bitmat_gencolvec(bitvec, sd);
+		mat_mul8x8_8x1(bitmat, bitvec);
+		mat_mod2(bitmat);
+		k[n] = bitmat2num(bitmat);
+		// Warning - high values of nk may produce keys more filled with 0s
+		// Warning - extremely high values of nk may cause your computer to do matrix multiplications until the end of time
+	}
+
+	uint64_t k = k[n];
+	unsigned char* kb = &k;
+	for (size_t i = 0; i < os; i++) {
+		op[os] = dt[i % sz] ^ kb[i % sizeof(uint64_t)] ^ i ^ ((os)? op[os-1] : 0)
+		// xor's probably cryptographicly secure, right?
+	}
+
+	bogosort(op, os, sizeof(char));
+	// Waste time for people trying to crack hashes
+}
+
+<Title Text>:
+If you use a different sort, it is not a blobhash and cannot be named as such.

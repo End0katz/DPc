@@ -1,0 +1,12 @@
+# /dev
+
+I always thought that /dev stood for developer, not device.
+Therefore: /xdev (for developers)
+/xdev/repchr/20 contains infinite spaces
+/xdev/repstr/20/21/22/rep contains the string ' !"' repeated infinitely
+/xdev/npipe/new	creates a new named pipe
+/xdev/npipe/j*	allows you to join a pipe from /xdev/npipe/new
+/xdev/npipe/c/* allows you to view a pipe that WAS in /xdev/npipe/j* but got connected tos
+
+<Title Text>:
+/xdev/quine contains the source code of the kernel drive that adds /xdev/quine

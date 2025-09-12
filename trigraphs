@@ -1,0 +1,8 @@
+# There are some features I am glad where removed from c
+
+// Are Trigraphs Enabled??/
+return 0;
+return 1;
+
+<Title Text>:
+%:define I_SURE_HOPE_DIGRAPHS_ARE_ENABLED_OR_ELSE_THIS_WOULD_BE_A_SYNTAX_ERROR

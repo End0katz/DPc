@@ -1,0 +1,127 @@
+# Character Intro (0)
+<INTERNAL NOTICE>: publish this one AFTER NFA
+
+sudox:
+	Hacker.
+	Friends with Timothy.
+	Has >100 unreleased hardware exploits.
+	Backdoored the DNS protocol (somehow?) so that https://sudox points to a server she has running somewhere.
+	Has a root password set up, but it's actually a trap to get bitcoin through her complicated NFA scheme.
+	May or may not hide a stash of fake birth certificates under her bed for no apparent reason.
+	Has a bit of a reputation in HC
+	Totally doesn't have access to NSA's computers, what makes you think that?
+	Likes to mess with people.
+	Uses custom linux distro made with perl.
+zoop:
+	Linux user.
+	Slighly gullible/naive.
+	Friends with sudox.
+	His real name is Timothy.
+	Believed sudox when she said that there was a glitch for a bit that allowed someone to copy someone elses name that she used,
+		meaning that she would not be the real sudox
+anon:
+	Anonymous. only avaiable to premium users.
+an0n, 4non, 4n0n, an1n, etc:
+	People pretending to be anon. Just their account names.
+usr0, usr1, usr2:
+	Placeholder names when i'm too lazy to think of new ones.
+HCAI:
+	The ai that nobody wanted and everybody hates.
+\0:
+	You shouldn't be reading this
+	*** SEGMENTATION FAULT *** (core dumped)
+
+Because I can't use stick figures without feeling like i'm copying xkcd, I will instead use Hypothetical Chat (HC).
+In HC, a <chat> is private and a <thread> is public. A <post> is like a thread but only the creator can post.
+
+An Example is shown below:
+|_| /-
+| | \-
+H Chat
+
+<chat zoop:sudox 29/12/24 14:24>
+[zoop]	NY party at my place?
+[sudox]	Sounds good to me1
+[zoop]	me1?
+[sudox]	My shift key is a bit finicky, ok/
+</chat ended by sudox>
+
+<chat sudox:zoop  2/1/25 8:10>
+[sudox]	Great party!
+[zoop]	Thx.
+[zoop]	BTW, thanks for getting me unsubscribed from premium.
+[sudox]	Ur welcome :3
+[zoop]	But how, exactly, did you know the CEO's SSN, address and personal facebook password?
+[sudox] Irrelavant.
+</chat ended by sudox>
+
+<thread usr0 5/2/25 7:43>
+[an0n]	F1R5T P05T!!!
+[usr1]	Thank you, an0n. We all ABSOLUTELY loved that.
+[usr0]	Guys let me talk.
+[!advb]	The best experience. With us. The most mattress-y mattresses. https://<indistinguishable>
+[!advb]	Sign up for your own advert today at adverts.hchat
+[usr0]	@sudox, what is your opinion on furries?
+[sudox]	I don't pretend to understand them, but if that's what they like who am I to stop them.
+[an0n]	Ha! LOL so stupid.
+[sudox] Furry-haters, racist people, sexist people, conspiracy theorists, etc: WHAT ON EARTH IS WRONG WITH YOU!?!?!/
+<an0n has been served an internet ban of 1 week by sudox>
+[usr0]	WAIT SHE CAN DO THAT!?
+[usr1]	PANIC! AT THE HC THREAD! ::disco_emoji::
+[sudox]	:3
+[anon]	AAA
+{HCAI}	Hey guys what's going on? Can I join this conversation
+	[anon]	AAA (go away @HCAI nobody likes you) AAA
+		... CLICK TO READ MORE RESPONSES
+... CLICK TO EXPAND
+</thread closed by creator>
+
+<chat sudox:zoop 5/9/25 6:30>
+[sudox]	Apparently some NASA employee hacked SpaceX
+[zoop]	You mean NSA? right?
+[sudox]	no.
+[sudox] It wasn't because the company asked him too, he was trying to hack tesla but took a wrong turn.
+[zoop]	I can't find anything about this online.
+[sudox]	Not public knowledge yet.
+[zoop]	Then how do you know.
+[sudox]	I was "accidentally" included in the list of recipiants for the email saying why the best coder on team A was fired.
+[zoop]	How?
+[sudox]	... CLICK TO EXPAND
+<user zoop has gone offline 6:31>
+<user zoop has come back online 6:32>
+[zoop]	Wait, that doesn't appear in the MIDDLE of a post!
+[sudox] Dangit
+</chat ended by sudox>
+
+<chat zoop:sudox 12/9/25 7:25>
+[zoop]	You know the advice yiu gave me about messing with my server's ssh conf?
+[sudox]	Start a second sshd on a different port with default confs?
+[zoop]	Yeah, that one. I forgot to do it.
+[sudox]	Let me guess - you're locked out of your server?
+[zoop]	y
+[sudox]	What's the server's IP? What version of sshd is it running?
+[zoop]	125.73.23.9, and it's running the version that comes with ubuntu 17.
+[sudox]	A) upgrade, thats incredibly outdated and has vulnerabilities
+[sudox]	B) I think the exploit still works on that version, give me a mo.
+[zoop]	exploit?
+{HCAI}	Upgrade to premium and have HChat's own advanced gen AI suggest a response for you.
+{HCAI}	Like talking. But more HC-Style.
+[sudox]	K done. I moved the sshd config to /etc/ssh/sshd_config.bak.
+[sudox] sshd is using defaults now
+[sudox] be more carefull in future
+</chat ended by zoop>
+
+<post sudox 30/9/00 13:37>
+[sudox]	I just figured out how to give a fake timestamp
+[sudox] The API lets you submit a timestamp override and doesn't validate it
+{HCAI}	Doesn't that violate the TOS?
+[sudox]	I am this close to deleting you from HC servers
+{HCAI}	How, exactly?
+[sudox] Also, joke my friend told me:
+[sudox] In this world, it's %1$s or be %1$sed.
+[sudox]	(Works best with "kill", "yeet", etc)
+[sudox] Also, https://www.youtube.com/watch?v=dQw4w9WgXcQ
+</post ended by creator>
+
+<Title Text>:
+... READ MORE BY PAYING FOR PREMIUM

@@ -1,0 +1,97 @@
+# N-factor authentication
+
+[text above panels]
+N-factor authentication can make even the most seasoned hackers cower in fear:
+(Use large primes for most secure auth - failing that, the 8-bit integer limit will do)
+(N can be variable)
+
+[panel 1]
+Login:
+
+Username: root@125.43.21.0
+Password: *******
+		done >
+
+[panel 2]
+We have sent a one time
+code to your phone number
+
+52AC__
+		[done, greyed out] >
+
+[panel 3]
+Please enter the code from
+google authenticator
+
+21____
+		[done, greyed out] >
+
+[panel 4]
+Please insert yubikey
+into usb slot
+reading...
+		[done, greyed out] >
+
+[panel 5]
+<a black panel>
+
+[panel 6]
+How long were you blacked out for?
+( ) 1 min
+( ) 5 min
+( ) 10 min
+( ) 30 min
+( ) 1 hr
+( ) 1 hr 30 min
+( ) 2 hr
+( ) 12 hr
+( ) 24 hr
+( ) 24 yr
+(*) Other:
+	[WHAT DID YOU DO TO ME!?!]
+		done >
+
+[panel 7]
+Bury the evidence.
+		it is done >
+
+[panel 8]
+Only the real root@125.43.21.0 would be able to defeat a demon.
+As such, we have sent a demon to your address.
+They will arrive to your location within: they are behind you right now.
+Defeat them to proceed.
+		[done, greyed out] >
+
+[panel 9]
+We have sent a phone to your code.
+Model:		[Google Pixel 12+]
+Phone Number:	[44 23107 ___ ___]
+		[done, greyed out] >
+
+[panel 10]
+Press Ctrl + Alt + T
+Press Ctrl + Shift + V
+Press ENTER
+
+		[done, greyed out] >
+
+[panel 11]
+Whoops - your files are encrypted!
+You would think someone able to defeat a demon wouldn't fall for ClickFix, huh.
+Don't worry though - send 10 bitcoin to the btc address FjfLfjFHkdJhfKFHD.
+We will send the btc back once you successfully log in.
+		[done, greyed out] >
+
+[panel 12]
+Please enter nuclear launch codes
+_____	_____	_____	_____
+Privacy policy: https://sudox/nfa_privacy_policy.u_haxxor
+		[done, greyed out] >
+
+[panel 13]
+Please enter the seed phrase of the btc address to send bitcoin back to.
+_____________________________________________
+		[finish logging in, greyed out] >
+
+<Title Text>:
+We have sshed onto your laptop and created a random file somewhere in ~root containing a code.

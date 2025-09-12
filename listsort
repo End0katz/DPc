@@ -1,0 +1,23 @@
+# Blobsort
+
+def blobsort(l):
+	r = random.randint(0, biggest_item(l))
+	print("r =", r)
+	a = [i for i in l if i < r]
+	b = [i for i in l if i > r]
+	c = [i for i in l if i == r]
+
+	a = a if is_sorted(a) else blobsort(a)
+	b = b if is_sorted(b) else bogosort(b)
+	c = c if is_sorted(c) else lie_detector(is_sorted)
+
+	return a + b + c
+
+>>> blobsort([10, 5, 7, 2, 6, 5, 3])
+r = 5
+[2, 3, 6, 7, 10, 5, 5]
+
+And remember - NEVER SORT []!!!
+
+<Title Text>:
+Wait, so when the list contains r it fails most of the time, unless r is the biggest item, in which case it's "sorted"?

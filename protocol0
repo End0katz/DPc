@@ -1,0 +1,41 @@
+# PFUAN: Protocol For Updates And Notifications
+
+pfuan://<domain>/<category>
+
+Timestamps are in the form of ms since unix epoch, in hexadecimal, without leading 0x.
+A-E must be uppercase, 0-9 and f must be lowercase
+
+1) Sending an alert
+
+"PFUAN SEND " sender_timestamp "/" category "\n"
+message_content
+
+2) Viewing an alert
+
+"PFUAN READ " message id "/" category "\n"
+
+RESPONES:
+
+"PFUAN RESP READ " message_id ":" sender_timestamp ":" server_timestamp "\n"
+message_content
+
+3) Adding to mailing list
+
+"PFUAN MAIL " "/" category "\n"
+(email | physical address | discord account for dms)
+
+Features:
+
+* Can also be used for IPC if you try hard enough
+* Can be used to send bun alerts
+* Extreme integration
+* No verification (mandated by protocol)
+  * No using message section for auth. or else.
+* Removing from mailing list can be done if you have ssh keys of server
+
+<Title Text>:
+PFUAN SEND 1337DE4DBEEf/meta
+guys I just realised they don't validate the timestamps
+
+PFUAN SEND 4f2/meta
+just get a time machine like the rest of us
