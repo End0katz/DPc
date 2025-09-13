@@ -3,7 +3,7 @@
 Blue		50/10	Delicious
 Brie		10/10	Delicious
 Cheddar		10/10	Delicious
-Parmazan	10/10	Delicious
+Parmasan	10/10	Delicious
 ...
 cheese/*	10/10	All cheese is good cheese
 cheese/.*	(uint64_t) -1/10	Secret cheese is best cheese

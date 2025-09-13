@@ -12,7 +12,7 @@
 	An empty string is encoded with a \0 as the only character
 * ustr
 	UTF-8
-	Termiate with \0
+	Terminate with \0
 	Use \xFF to add a null character into the string without terminating
 
 * lstr

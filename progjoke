@@ -21,4 +21,4 @@ $ grep "ls" <.bashrc
 alias "ls=ls --color=auto -la"
 
 <Title Text>:
-~/dev is not a link to /dev as you might expect - it is a directory containg a cdev, with major/minor = /dev/null
+~/dev is not a link to /dev as you might expect - it is a directory containing a cdev, with major/minor = /dev/null

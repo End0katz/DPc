@@ -1,7 +1,7 @@
 # Control
 
 Short notation:	[symbols]* <letter, upercase>				e.g. ^D >X ^>V
-Long notation:	[modifier letters, upercase]* "-" <letter, upercase>	e.g. C-D M-X CM-V
+Long notation:	[modifier letters, upercase]* "-" <letter, uppercase>	e.g. C-D M-X CM-V
 
 Mods	Short	Long	Function
 	C	C	Type lowercase letters

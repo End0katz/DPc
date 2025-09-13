@@ -1,8 +1,8 @@
 # Keyboard Idea
 
 1) When you tap (press & release) a key, the keyboard shifts to a different layout, with keys placed closer
-	to the key you pressed based on likelyhood of following
-2) When you tap a key, but before you release it, all the other keys become various different workds, symbols
+	to the key you pressed based on likelihood of following
+2) When you tap a key, but before you release it, all the other keys become various different works, symbols
 	etc related to that. So e.g. you could type "bat" as 3 keys (e.g. b, n which is now an a, m which is now a t)
 	or you could press b and drag your finger to the key now labeled "bat" if is really that common for you to type
 3) We could get the other hand involved somehow
