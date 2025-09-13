@@ -12,7 +12,7 @@ s/job/glob/g # I have a new glob for you!
 # Regex Improvement
 s/(.+)?/.*/g
 s/.?.?/.{,2}/g
-s/\/\\/\//:\/:/
+s/\/\\\/\//:\/:/
 
 # Glob 2 Re
 s/\*/.*/
