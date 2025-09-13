@@ -1,0 +1,71 @@
+# Gitconfig
+
+|_| /-
+| | \-
+H Chat
+
+<notice>
+H CHAT HAS A NEW UPDATE:
+In Settings, you can now change the logo
+
+Large:
+
+  _    _   ______
+ | |  | | / _____|
+ | |__| | | |   h 
+ |  __  | | |   a 
+ | |  | | | |___t 
+ |_|  |_| \______|
+ Hypothetical Chat
+
+Big: (Default)
+
+|_| /-
+| | \-
+H Chat
+
+Small:
+
+|-| (=
+H Chat
+
+Tiny:
+
+H Chat
+
+Nano:
+
+GNU nano 7.2			HC
+
+</notice>
+
+<post sudox 0/0/0 0:0>
+[sudox]	A) Why do people keep asking me for my .gitconfig?
+[sudox] B): <multiline comment> <collapse> <copy>
+```
+[user]
+	name = sudox
+	email = :@sudox
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = ed
+[alias]
+	oneline = log --oneline
+	last = log -1
+	tree = log --oneline --graph
+	sync = "!bash -c \"echo \\\"### PULL ###\\\" && git stashpull && echo \\\"### PUSH ###\\\" && git push && echo \\\"### DONE ###\\\"\""
+	gconfig = config --global
+	ignore = !bash -c \"echo \\\"$@\\\" >>.gitignore\"
+	stashpull = "!bash -c \"if [ -n \\\"$(git status -s)\\\" ]; then echo \\\"Stashing unsaved changes...\\\" && git stash && git pull && echo \\\"Restoring saved stash.\\\" && git stash pop; else echo \\\"No unsaved changes to stash.\\\" && git pull; fi\""
+	diffcheck = diff --check
+	forceclean = clean -xdf
+	unstage = reset HEAD --
+	unstage-discard = !git unstage \"$@\" && git restore \"$@\"
+```
+</post>
+
+<Title Text>:
+My personal git config is this, but with different emails, and my editor is nano.

@@ -1,0 +1,33 @@
+# Escaping out of hand
+
+<!DOCTYPE html>
+
+<html>
+	<body>
+		<h1>Tutorial On Entities in HTML</h1>
+		<!--      Oh boy, here we go      -->
+		<p>
+		A character entity is a method in HTML used to print certian special characters.
+		A character entity can come in one of 2 forms:
+			Form 1 (named): <code>&amp;name;</code>
+			Form 2 (numeric): <code>&amp;#num;<code>
+		A numeric character entity takes the form <code>&amp;#<i>nnnn</i>;</code> or <code>&amp;#x<i>hhhh</i>;</code>,
+		Where <i>nnnn</i> is any number of decimal digits and <i>hhhh</i> is any number of hexadecimal ones.
+		A named character reference uses a name from the list below.
+		<ul>
+		<li><code>&amp;nbsp;</code> is a non-breaking space</li>
+		<li><code>&amp;amp;</code> is an &amp; (we will get to that shortly)</li>
+		<li><code>&amp;lt;</code> is an &lt;</li>
+		<li><code>&amp;gt;</code> is an &gt;</li>
+		<li><code>&amp;rt;</code> does not exist. use gt.<li>
+		</ul>
+
+		To type an <code>&amp;</code>, use <code>&amp;amp;</code><br />
+		To type an <code>&amp;amp;</code>, use <code>&amp;amp;amp;</code><br />
+		To type an <code>&amp;amp;amp;</code>, use <code>&amp;amp;amp;amp;</code><br />
+		</p>
+	</body>
+</html>
+
+<Title Text>:
+<!DOCTYPE><p>html</!DOCTYPE></p> has got to be the best way to annoy a web developer - better than <div></span>

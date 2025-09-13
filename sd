@@ -1,0 +1,59 @@
+# Jim's hardware storage shop
+
+[text at top]
+Jim's hardware storage shop:
+(All protocols operate over http over tls over bluetooth)
+
+[panel 1]
+An SD card and a small USB stick are in frame
+"ReMoteSD (RMSD)"
+
+* Only has enough space for 1 file
+* That file is about 1mb and contains a private key
+* Comes with a remote (the usb stick) containing a public key
+* The card's build-int CPU reads from whatever computer the USB stick is plugged into
+* File IO cannot access the on-board file - it uses the remote stick
+* Comes in SD, MicroSD, MacroSD, NanoSD and GigaSD sizes
+
+[panel 2]
+A device that looks like a hard disk drive with a USB port on top, and 5 cables on the side.
+"ArHDDuino"
+
+* Contains an arduino (upload code with usb port on top)
+* 5 output ports
+* Plug a cable into a laptop
+* Can pretend to be an HDD or an SSD
+* Any file IO is handled by the arduino
+* Kind of like a TMPFS
+
+[panel 3]
+"PetaBrick"
+
+* Each module is 5cm by 5cm by 5cm
+* Each module comes with up to 6 different panels (on all sides) and 1 core
+* Panel types:
+	Standard
+	None
+	Port (plug USB cable into here, other side into laptop)
+	Hatch (like a trapdoor - you can use it to access hidden rubix cubes)
+* Core types:
+	HDD
+	SDD
+	SD Card Rack (also has microSD variant)
+	Rubix cube (what? It's just about the right size!)
+* The starter pack comes with 27 modules - 8 corners, 12 edges, 6 sides and 1 central - all filled with HDD cores
+* All modules are designed to be easily put togetherr and mediumly taken apart
+
+
+[panel 4]
+(A small box. Has a USB cable on 1 end and a port on the other)
+(The top has a plug, to be plugged into a wall socket)
+"PBSD"
+
+* Small computer
+* Plug into mains
+* Allows using the RMSD remote to plug into a PetaBrick or an ArHDDuino
+* STORAGE GALORE
+
+<Title Text>:
+SSPen: Controll animated pattern remotely using client app (download here). Switch between 5 different modes. Compatible with SSPad.
