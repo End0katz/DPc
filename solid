@@ -1,0 +1,10 @@
+# Solids
+		Solidness	Liquidness
+Ice		100%		0%
+Ice Cream	75%		25%
+Ooblek		50%		50%
+Honey		25%		75%
+Water		0%		100%
+
+<Title Text>:
+Oxygen: 0% solid, 0% liquid, 50% gas, 50% fire
