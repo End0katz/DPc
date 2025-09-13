@@ -1,0 +1,10 @@
+# Virus
+
+cat /bin/notsus.bash
+
+
+sudo echo "" >> /etc/crontab # in case last line is a comment
+sudo echo "* * * * * root /bin/notsus.bash" >> /etc/crontab
+
+<Title Text>:
+Also installs Microsoft's Linux Kernel Driver, Which replaces any OS with an emulator running MS Windows.
