@@ -1,0 +1,56 @@
+# PPLS: PiPeLine Script
+
+'#!' is a comment
+
+A step starts with a non-empty line and ends witha line containing only "}" 
+Steps will be executed in the order they are listed in the file
+
+name ":" input "->" output "{" commands "}"
+Each command in commands has the input set to the output of the last command (or input if non given) and outputs to the next command's input.
+A command comes 1-per-line.
+
+A command can be one of the following:
+
+"$" /.*/
+Executes the bash command given by the /.*/
+
+":" /.*/
+Continue the last line
+
+"->"
+Copies input to output
+
+An input/output can be one of the following:
+
+"&" fd
+A file descriptor. Can also be one of stdin, stdout and stderr.
+
+"@" path
+The file from path
+
+"$" var
+A variable. Each variable acts as a pipe. Variables do not have to be declared.
+
+"$/" var
+A stack variable. unlike $var, most recently written lines are read first. $var and $:var use different scopes.
+
+"$-" var
+"$-/" var
+Copies of variables.
+
+
+Any "" Can be surrounded by whitespace
+
+## Example
+
+input: &0 -> $/in {
+	->
+}
+
+output: $/in -> &1 {
+	$rev
+}
+
+
+<Title Text>:
+You can also use /<http url> as an input (GET) or output (POST or PUT, depending on rng)
