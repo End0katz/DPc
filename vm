@@ -1,0 +1,10 @@
+# VM
+
+1) design your own CPU architecture
+2) implement it in C
+3) write a program to compile C to your CPU's byte code
+4) compile CPU source code to CPU binary
+5) guess what happens next
+
+<Title Text>:
+5) optimise with JIT

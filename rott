@@ -1,0 +1,13 @@
+# ROTT
+
+Reflections on Trusting Trust: PRO EDITION
+1) When you log in to the user root, a GET request will be made to a hardcoded IP to see if it should let you in.
+2) When you compile any code related to code processing, it will add all these bugs.
+3) When you binary-dump or dissasemble programs, the bug is hidden.
+4) When you time any operations effected by this, it will hide the backdoors.
+5) That includes physical timers outside of your laptop.
+6) Don't question how that works
+7) When you try and spread news about this backdoor you discovered, your wifi signal inexplicable drops to 0.
+
+<Title Text>:
+When a fingerprint other than yours is detected on your laptop, it will send a kill signal to the hardcoded IP.
