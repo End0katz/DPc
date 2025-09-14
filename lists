@@ -1,0 +1,69 @@
+# Types of lists
+
+## array (with header):
+<size_t length> <item 0> <item 1> ... <item n>
+
+PROS:
+* Fast for nth item
+* Easy to free(3)
+
+CONS:
+* Dynamic allocation requires lots of realloc(3)s
+* Bounded array checks are slow
+
+
+
+## array (no header):
+<item 0> <item 1> ... <item n>
+
+PROS:
+* Fast for nth item
+* Easy to free(3)
+
+CONS:
+* Dynamic allocation requires lots of realloc(3)s
+* Easy to overread and SIGSEGV
+
+## single-linked list
+<item 1> <pointer to item 2>
+<item 2> <pointer to item 3>
+...
+<item n> <pointrr to null>
+
+PROS:
+* Easy for iteration
+* You can do cool stuff like infinite lists
+
+CONS:
+* Nth item is O(N)
+* You can do stuff like infinite lists
+
+## double-linked list
+<item 1> <pointer to item 2> <pointer to null>
+<item 2> <pointer to item 3> <pointer to item 1>
+...
+<item n> <pointer to null> <pointer to item n-1>
+
+PROS:
+* Easy for iteration
+* You can do cool stuff like infinite lists    
+
+CONS:
+* Nth item is O(N)
+* You can do stuff like infinite lists
+
+## pen & paper
+<list ID - size_t>
+
+Asks user to remember values on writes. Asks user for them back on reads.
+
+PROS:
+* Small memory footprint
+* Easy to do cool stuff with
+
+CONS:
+* Extremely slow
+* If the IO library uses a pen & paper list, all hell breaks loose
+
+<Title Text>:
+pen & paper lists also require an external dependency (the user), which carries risks

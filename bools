@@ -1,0 +1,18 @@
+# Bools
+
+Why bools in most languages waste 7 bits of space:
+
+// Why can't c just add lambdas
+bool deref(const bool* bp) {
+	return *bp
+}
+
+>>> make
+>>> ./a.out
+*** SEGMENTATION FAULT *** (core dumped)
+Cannot dereference pointer "0xFFFF.b": Sits halfway inbetween 2 bits (0xFFFF.a and 0xFFFF.c)
+This may be caused by floating-point imprecision, or a glitch
+>>> google-chrome & >/dev/null 2>/dev/null
+
+<Title Text>:
+Never dereference /.*\.[13579bBdDfF]/

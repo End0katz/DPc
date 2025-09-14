@@ -1,0 +1,18 @@
+# Modularity
+
+The linux VFS system is such a good example of modularity.
+
+1) BDEVs and CDEVs
+Instead of hardcoding /dev/*, it delegates these to kernel drivers, which can be added by users.
+This allows the user to set up custom BDEV/CDEVs, or change existing ones if they try hard enough.
+
+2) VFS
+Kernel drivers can add new filesystems, which are mounted and managed by the VFS.
+A filesystem could say that e.g. <mount>/form behaves like a regular file but, on saving to disk, actually POSTs data to a website.
+
+3) RAM
+The kernel stores data using RAM chips. However, it is not *too* difficult to set up a RAM chip which e.g. flips bits on reads.
+This allows for greater customisation, because hey stop dragging me out I paid for a spot in this conference.
+
+<Title Text>:
+4) The kernel runs on CPUs. However, using software, you can set up "virtual CPUs" which allow more flexability e.g. instruction skipping.
