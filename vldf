@@ -16,7 +16,7 @@ EOF			EOF
 80 EOF			C2 80 EOF (first valid 2-byte)
 81 EOF			C2 81 EOF
 ...
-9E EOF			E0 80 80 EOF (first valid 3-byte)
+?? EOF			E0 80 80 EOF (first valid 3-byte)
 
 <Title Text>:
 For formats that don't have an easy way to determine Nth valid, just iterate through all possible. you sacrificed speed
