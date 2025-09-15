@@ -1,0 +1,23 @@
+# Shebangs
+
+/bin/bash	Fairly common
+/bin/sh		More portable
+/usr/bin/bash	Slightly less common
+/bin/zsh	That technology is alien to me
+/bin/python	You do realise on non-ubuntu installs, /bin and /usr/bin are different right?
+/usr/bin/python	Python 2.0
+/usr/bin/python3	Python 3.1
+/usr/bin/python312	Which python312?
+/usr/bin/python3.12	There we go
+/usr/bin/sed	YOU@RE DOING IT WRONG!
+/usr/bin/sed -f	Good
+/usr/bin/make	Understandable
+/usr/sbin/cron	Oh boy, here we go
+/usr/bin/man	You shouldn't do that
+/usr/bin/ssh	Why? Why?
+/usr/bin/git add	How often are you changing it?
+/usr/bin/echo	Maybe this system is too flexible
+./yeet		This system is too flexible
+
+<Title Text>:
+/: Is a directory

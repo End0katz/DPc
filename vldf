@@ -1,0 +1,24 @@
+# .vldf
+
+<file>.<format>.<vldf>
+
+A new compression scheme
+(format dependant, so there is no standalone vldf parser)
+
+Instead of storing the data itself, store the index into a table of all valid data.
+(Big-Endian) (Add the max for the n-1 digits for any n-digit number)
+
+example.utf8.vldf	example.utf8
+EOF			EOF
+00 EOF			00 EOF
+01 EOF			01 EOF
+...			...
+80 EOF			C2 80 EOF (first valid 2-byte)
+81 EOF			C2 81 EOF
+...
+9E EOF			E0 80 80 EOF (first valid 3-byte)
+
+<Title Text>:
+For formats that don't have an easy way to determine Nth valid, just iterate through all possible. you sacrificed speed
+for compression long, long ago.
+
