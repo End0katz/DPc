@@ -1,0 +1,11 @@
+# Rounding
+
+Rounding to nearest 100
+49(3): 4 < 5; 0
+
+Rounding to nearest 10, then 100
+49(2): 9 >= 5; 50
+50(3): 5 >= 5; 100
+
+<Title Text>:
+5ead(2): a >= 8; 5eb0. Also, no FD was passed.
