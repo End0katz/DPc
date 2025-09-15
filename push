@@ -1,0 +1,44 @@
+# Git Push
+
+$ git log
+commit 292b00631a807bd2113e7e35085c42074d5f2e7f (HEAD -> main)
+Author: End0katz <endokatz@gmail.com>
+Date:   Mon Sep 15 18:57:14 2025 +0100
+
+    Added 2 new comics: 'rounding' and 'typo'
+
+commit 8ad77ac8b1a4a804b0cc02b65de2a8243685a27b (origin/main)
+Author: End0katz <endokatz@gmail.com>
+Date:   Mon Sep 15 17:55:34 2025 +0100
+
+    Added 3 new comics: 'mashup', 'meta' and 'safrm'
+
+commit 1fce1e2a0679c1e49ad03cfd4e22ecac37d86851
+Author: End0katz <endokatz@gmail.com>
+Date:   Mon Sep 15 16:52:36 2025 +0100
+
+    Fixed mistake in vldf
+
+commit 2d8d85ae4817c7c6aa55da3275bc0d421ea4f75e
+Author: End0katz <endokatz@gmail.com>
+Date:   Mon Sep 15 15:54:36 2025 +0100
+
+    Renamed 'badusb' to 'keyboard' so it shows up after character_introuction in alphabetical order
+
+commit 9d919a8b063a0d4ab8de9d965d470d3e0f230add
+Author: End0katz <endokatz@gmail.com>
+Date:   Mon Sep 15 15:54:07 2025 +0100
+
+    Added new comic: 'ms'
+
+commit 42e9cc1c26d7febfe7d4b068d3f90847e1de74e2
+Author: End0katz <endokatz@gmail.com>
+Date:   Mon Sep 15 15:33:34 2025 +0100
+
+:^C
+$ git push
+You give the commits a push...
+CRASH! They tumble down like dominoes.
+
+<Title Text>:
+You try to stop the collapse with a git pull, but it is in vain - this repo is more ruined than the library of Alexandria.
