@@ -1,0 +1,110 @@
+# SAFRM
+
+SAFe ReMove
+
+Delete files. By default, is heavily restricted and args must be used to allow it to do anythning.
+
+# Invocation
+
+safrm [options] [@file] [--] file1 [file2 ...]
+
+@file
+	Take arguments from file, line by line
+--
+	No more argument parsing, only files to remove
+
+-h, --help
+	Print this help message and exit
+-V, --version
+	Print version and exit
+
+-r, --recursive
+	Remove 1 restriction on directories, starting from top:
+		Do not delete directories
+		Delete empty directories
+		Delete files inside directories
+		Delete files and empty directories inside directories
+		Delete all files and directories inside directories (unless other conditions block)
+-R, --Recursive
+	Set the directory restrictions for 1 directory
+	-R<dir> <never/empty/files/empdir/recurse>
+	e.g. -R. recurse, -R.. empdir, -Rbuild recurse, -Rsrc never, -R/tmp files
+
+-d, --drive
+	Remove 1 restriction on drives, starting from top:
+		Do not delete anything
+		Delete things in same drive as the file specified
+		Above, but drives mounted inside that drive are also removed
+		Delete things regardless of drive
+
+-D, --Drive
+	Set the drive restrictions for 1 drive
+	-D<dir/file> <deny/allow/recurse>
+	If dir, use that drive.
+	If file, use -D<mount point>.
+	If dir that is not drive, use -D<drive it's in>
+	e.g. -D. allow, -D/ deny, -Dtest recurse, -Dtmp.ext4 recurse
+
+-f, --file
+	Remove 1 restriction on files, starting from top:
+		Do not delete files
+		Delete empty files
+		Delete empty files and dangling symlinks
+		Delete non-executable normal files and empty executables
+		Delete normal files
+		Delete all files
+-F, --File
+	Set file restrictions for 1 file or folder
+	-F<dir/file> <never/empty/clean/noexec/normal/purge>
+	e.g. -Fbuild noexec, -Fsrc never, -F~ empty, -F/ clean
+
+-s, --scope
+	Remove 1 restriction on scope, starting from top:
+		Do not delete
+		Only delete in .
+		Only delete in ..
+		Only delete in ~
+		Only delete in /home
+		Only delete in /*
+		Allow deletion in /
+-S, --Scope
+	Set the scope limitations for a specific directory:
+	-S<dir> <never/here/parent/home/allhomes/rootsub/root>
+	Cannot be empty
+	e.g. -S"$STEAMROOT" home, --Scope/ allhomes
+
+-Z, --failsafe
+	Error if there is no argument given.
+	-z errors
+	-z/home does not error
+	-z"$STEAMROOT" errors if steamroot is empty
+
+-p, --print
+	Do not delete files, merely print them to stdout
+-P, --pipeline
+	Prints input to FD argument.
+	Implies -p
+	Intended usage:
+	safrm -P3 <options> 3>"$tmpfile" | /* filtering magic */ | xargs safrm -þ"$tmpfile"
+-þ, --þipeline
+	Restore a pipeline.
+	þ can typically be typed with ALTGR + p. Þ is also allowed (ALTGR + SHIFT + P)
+
+The safrm equivilent of rm -rf is safrm -S/ -F/ purge -D/ recurse -R/ recurse 
+
+
+Steam steamroot bug 
+rm -rf "$STEAMROOT"/*
+
+With safrm
+
+safrm -S"$STEAMROOT" home -F/ normal -D/ recurse -R/ recurse "$STEAMROOT"/*
+
+When $STEAMROOT is empty/not set,
+
+safrm -S home -F/ normal -D/ recurse -R/ recurse /*
+
+Which errors due to empty scope.
+
+<Title Text>:
+Rebind rm to safrm and never accidentally delete files again. Do it to your friend's computer so they never intentionally delete them.

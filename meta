@@ -1,0 +1,20 @@
+# Meta
+
+meta-
+meta-meta-
+meta-meta-meta
+...
+metall- (/(meta-)*/)
+meta-metall
+meta-meta-metall
+...
+metall-metall (/(meta-)*metall-/)
+meta-metall-metall
+meta-meta-metall-metall
+...
+...
+/(metall-)*/
+meta-/(metall-)*/
+
+<Title Text>:
+Is exponential fast enough?
