@@ -1,0 +1,10 @@
+# Defaults
+
+<project>/conf.rc
+Project configuration. Default for new projects is ~/dflt.conf.rc
+Default ~/dflt.conf.rc for new users is controlled by /etc/dflt.conf.rc
+Default /etc/dflt.conf.rc for new installs is controlled by GET example.com/tool/etc/dflt.conf.rc
+Default example.com/tool/etc/dflt.conf.rc is controlled by your default DNS server's records for example.com
+
+<Title Text>:
+Your DNS server will, by default, have the following A/AAAA records for example.com: {live-updating output of DNS lookup for example.com}
