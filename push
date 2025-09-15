@@ -39,6 +39,10 @@ Date:   Mon Sep 15 15:33:34 2025 +0100
 $ git push
 You give the commits a push...
 CRASH! They tumble down like dominoes.
+^C$ ^C
+$ git pull
+You try to stop the collapse with a git pull... (rolling d20: 3)
+It is in vain - this repo is more ruined than the library of Alexandria.
 
 <Title Text>:
-You try to stop the collapse with a git pull, but it is in vain - this repo is more ruined than the library of Alexandria.
+The output of git log is genuine - I keep track of these comics with git and a gh repo.
