@@ -15,11 +15,15 @@ NodeJS		0.0625%
 Crontab		0.03125%
 Ext4		0.015625%
 Rust		0.0088125%
-x86		0.00440625%
+x86 asm		0.00440625%
 x86 binary	0.002203125%
-ARM		0.0011015625%
+ARM asm		0.0011015625%
 ARM binary	0.00055078125%
 Brainf***	0.000275390625%
+Befunge		0.0001376953125%
+Gnuplot		0.00006884765625%
+Ensurance floating-point imprecision hasn't crept in somewhere	0.0%
+Lisp		???%
 Sacrifices to Cthulu	one file somewhere in tests/
 Unmakefile	1%
 
