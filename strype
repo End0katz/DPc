@@ -1,0 +1,32 @@
+# libibstr: Utilities for string processing
+
+libibstr.so
+Link with -libstr (not -lstr - look at the ib)
+
+define SUBSTR_END <the lowest value a ssize_t can support>
+
+// Substring *s
+// *s[r] will be set to \0
+// *s will be incremented by l
+// Negative numbers are from end, positive/0 are from start
+// Use SUBSTR_END to mean from the start (l) or end (r)
+void substr(char** s, ssize_t l, ssize_t r);
+
+define STRINTC_ROMAN	0
+define STRINTC_ENGLISH	1
+define STRINTC_LOCALE	2	// like english, but locale-dependant
+define STRINTC_BASE10	3
+define STRINTC_BASE2	4
+define STRINTC_BASE8	5
+define STRINTC_BASE16	6
+define STRINTC_BASE64	7	// 0-9 a-z A-Z _ +
+
+void strintc_2str(int fd, int256_t i, uint8_t strintc);
+void strintc_2int(int fd, int256_t* i, uint8_t strintc);
+
+typedef char* str
+
+#include <libstrint.h - infinite precision strings and floats.h>
+
+<Title Text>:
+libibstr.so does not support strings larger than 1024 Zettabytes because oh my goodness how much ram do you even have?
