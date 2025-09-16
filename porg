@@ -1,0 +1,24 @@
+# Porg
+
+s/prog/porg/g:
+
+[usr1] <multiline> <hide> <copy>
+My porgram keeps dying.
+Its always on this line:
+
+/* Create an empty porg template.
+ * The porg's id will be written to *porgid
+ * You can then use porgadd_* to customise the porg
+ * and porgrun() to run it.
+ * Returns 0 on succes, or -1 and sets porglib_errno on fail.
+ * if porgid is NULL, dry-run - create no new porg, but write to porglib_errno the same.
+ */
+int porgmak(porg_t* porgid);
+
+That's a PROTOTYPE. This is a RUNTIME error.
+I've tried a full recompile - both on my laptop and my rasp pi. Still crashing.
+TBH, I think this is a compiler error - I am using an experimental one - but nobody else has this problem?
+And yes, I tried going step-by-step on gdb. It's behaving fine, then it randomly segv's. gdb, that is. gdb segv's.
+
+<Title Text>:
+s/sigsegv|segv|segfault|sigsegfault|segmentation fault/PORG ATTACK!!!/gI
