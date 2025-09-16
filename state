@@ -1,0 +1,12 @@
+# State
+
+int f(int i); // Stateless
+
+struct state {/* ... */};
+struct state gstate = {0};
+int g(int i); // Stateful
+
+int h(int i, struct state* st); // Stateless
+
+<Title Text>:
+if (!st) st = &gstate; // Stateful
