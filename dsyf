@@ -1,0 +1,74 @@
+# DSYF: Dependency Schema Yaml File
+
+.dsyf, .dsyf.yaml, .dsyf.yml, .yaml.dsyf, .yml.dsyf, .json
+
+The root file is a list:
+
+```
+- this is what a list looks like in yaml
+- this is another item in a yaml list
+- this item is an overly verbose item in a yaml list
+```
+
+Each element contains a property called type.
+
+A context is a string saying where to find it, e.g. apt, snap. default if ommited is "*".
+
+The valid types are:
+	req - required
+	opt - optional
+	rec - reccomended
+	inc - incompatible
+	rep - replaces
+	mut - mutually exclusive
+	lst - list
+	eof - SEGV the resolver
+
+REQ
+
+required dependancy.
+ctxt is optional.
+vers is optional.
+
+```
+- type: req
+  name: libd
+  vers: >=1.2.5
+  ctxt: context
+```
+
+OPT, REC, INC, REP
+
+follow same format as REQ.
+
+MUT
+
+opts is a list of dependencies (see above for valid types)
+alias for LST with minn = 1 maxn = 1
+
+```
+- type: mut # 6.2.1 has a critical bug
+  opts:
+    - type: opt
+      name: libc
+      vers: <6.2.1
+    - type: opt
+      name: libc
+      vers: >6.2.1
+```
+
+LST
+
+opts is a list of dependencies (see above for valid types)
+minn and maxn are both integers - min and max, respectively
+maxn and minn can both be ommited for infinity.
+
+```
+- type: lst
+  minn: 2
+  maxn: 3
+  opts: *id001
+```
+
+<Title Text>:
+dsyf_resolve <file> <resolver> resolves a dsyf file. the resolver handles installation and handling dependencies back to dsyf_resolve.

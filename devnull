@@ -1,0 +1,15 @@
+# /dev/null
+
+$ ./tool.sh | /dev/null
+bash: /dev/null: permission denied.
+$ sudo ./tool.sh | /dev/null
+bash: /dev/null: permission denied.
+$ ./tool.sh | sudo /dev/null
+sudo: /dev/null: command not found.
+$ sudo bash -c "./tool.sh | /dev/null"
+bash: /dev/null: permission denied.
+$ ./stackoverflow.in.firefox.sh
+$ ./tool.sh >/dev/null
+
+<Title Text>:
+chmod +x /dev/null
