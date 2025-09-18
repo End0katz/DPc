@@ -1,0 +1,13 @@
+# WIP
+
+assuming EBCDIC, this explains everything:
+
+TEXT	HEX	BINARY OF LAST DIGIT
+win	a68995	10010101
+wip	868997	10010111
+		      ^
+
+CONSTANT SINGLE BIT FLIP
+
+<Title Text>:
+wip32 is a commonly used identifier for wipdows in os-get functions
