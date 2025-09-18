@@ -1,0 +1,13 @@
+# Maze solving algorithm
+
+This algorithm can be applied to any maze which would be an island maze if both the exit and entrance where blocked.
+
+Assumes a grid of n-gons
+
+1) If any square has n-1 walls, mark the empty wall as a wall
+2) Repeat step 1 up to 4096 times
+3) If 4096 iterations is not enough, get a bulldozer and form a direct path from entrance to exit
+4) Take the path from entrance to exit (use long route if 4096 iterations WAS enough)
+
+<Title Text>:
+If it is not possible to know the full maze layout ahead of time, *** SEGMENTATION FAULT *** (core dumped to /dev/null)
