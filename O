@@ -1,0 +1,21 @@
+# O(N)
+
+What the stuff in O() means:
+
+* 1		Constant
+* 2		Const...?
+* N		Going through a list
+* 2N		Going through a list twice
+* N + M		Going through 2 lists
+* N ^2		Going through a list and comparing every item to every other item
+* N!		Realising that order doesn't matter and skipping already-compared pairs
+* N!!		Shocked that you got it in linear time
+* N!!!		Shocked that the travelling salesman problem takes O(N!) to brute force
+* log N		You optimized the list
+* log log N	You optimized the list AND the list sorter
+* exp N		You spent too long deciding how to optimize the list
+* );DROP TABLE times;--		Calling security to kick Randall Monroe out
+* 2025N		Going through a list of all the years that started before this webcomic
+
+<Title Text>:
+O(inf) means ^C. O(O(N)) means it takes as much time as it takes to determine the O() of something. O'(N) means you entered a calculus room by mistake.
