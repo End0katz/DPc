@@ -1,0 +1,38 @@
+# PI
+
+$ nc google.com 314159
+nc: port number too large: 314159
+$ sudo nc google.com 314159
+nc: haha nice try
+$ thunderbird
+$ poweroff
+
+THE NEXT DAY:
+
+$ thunderbird
+$ nc google.com 314
+hello
+I'm here for https://www.rfc-editor.org/rfc/rfc3091
+because nc won't let me use port 314159
+anyway bye
+^D
+$ poweroff
+
+THE DAY AFTER:
+
+$ nc google.com 314
+14159265358976328462643383279502884197
+OH NO OH NO WHAT SHOULD I DO
+I DON'T KNOW ALL OF PI - DO YOU?
+OH NO OH NO WHAT DO I DO
+I DON'T KNOW HOW TO DO WHAT I NEED TO
+*** SEGMENTATION FAULT *** (core dumped)
+root@~$ hey, wait, this isn't my prompt
+OH NO YOU CAUGHT ME
+I THOUGHT IF I GAVE A FAKE SEGV AND PRETENDED TO BE YOUR SHELL YOU WOULDN'T NOTICE
+AND I WOULD GET AKK YOUR JUICY DATA
+GOODBYE
+$
+
+<Title Text>:
+14159034719384713984713817438917493184371979789798 floating point sucks
