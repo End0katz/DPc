@@ -1,0 +1,39 @@
+# DPc EMBEDED SYSTEMS INC
+
+EMBEDDED BLOCK 0 (0x00 -> 0x n0w_7h3_0ld_0n3_is_f (ULL implied))
+
+FROM ADDR	TO ADDR		WHAT THEY DO
+0x00		0xFF		Embedded block 1
+0x100		0xFFFF		Embezzled block 0
+0x10000		0xFFFFF		Application block 1
+0x100000	0xFFFFFF	Embedded block 2
+0x1000000	0X100FFFF	ROMSWAP 1
+0x1010000	0x101FFFF	ROMSWAP 2
+...
+0xFFF0000	0xFFFFFFF	ROMSWAP 4 (romswap 3 is really big, ok)
+0x10000000	0xFFFFFFFF	Undefined. 
+0x100000000	0x1FFFFFFFF	Repeats - some apps think pointers are big endian
+0x200000000	0xFFFFFFFFF	Eldritch block 1
+0x1000000000	0xFFFFFFFFFF	Write/read USB port - usefull for command isshuing. Each byte can only ever be used once
+0x10000000000	0xFFFFFFFFFFF	Application block 2
+0x100000000000	0xS4CRIFIC3_D3M4ND3D		Eldritch block 2
+
+EMBEDDED BLOCK 1 (0x00 - 0xFF)
+
+ADDR	READ			WRITE
+0x00	Print null pointer error message and exit
+0x01	Print off-by-one pointer error message and exit
+0x02	Read semaphore		Add to semaphore
+0x03	Thread ID		Change PID
+0x04	Implementation ID	Change Implementation ID (universally)
+
+EMBEZZLED BLOCK 0
+Just a carbon copy of whatever the nearest embedded device to you is
+
+EMBEDDED BLOCK 2
+0x100000 - 0x1000FF	NULL	NULL
+0x100100		Print buffer overrun message and exit
+0xFFFFFF		ID of ROMSWAP to use in format 0bXYZWWZYX - XX is swap 1, YY is swap 2, ZZ is swap 3 and WW is swap 4
+
+<Title Text>:
+0xP3RF0RM_TH3_R11UAL contains a 7-bit byte and we don't know how. we also don't know how we know that.

@@ -1,0 +1,41 @@
+# IRMP - Infinite Relay Messaging Protocol
+
+IRMP operates over port 0x8080 (32896)
+
+When you open up an IRMP connection, first exchange a handshake:
+	"IRMP HAND SHAKE" <LF> <CR>
+
+The server will reply with
+	"IRMP HAND SHAKEN" <LF> <CR>
+
+If the server has not seen this client before:
+	"HI! I'M A SERVER" <LF> <CR>
+Elif this is the last time the server will see this client:
+	"hi... or, i guess, bye... :(" <LF> <NO> <DONT> <LAUGH> <CR> <Y>
+Else:
+	"HI! HOW ARE YOU" <LF> <CR>
+
+The :server: can then send instructions, to which the :client: will send responses.
+
+Instructions are:
+
+## OBTAIN DATA
+
+s->c	"GET DATA PLEASE" <LF> <CR>
+c->s	"WHAT DATA?" <LF> <CR>
+s->c	<key> ", PLEASE!" <LF> <CR> (<key> may not contain ,,<LF> or <CR>)
+
+If the client knows what to do for <key>:
+c->s	"OH SURE IT'S " <data> <LF> <CR> (<data> may not contain <LF> or <CR>)
+Otherwise
+c->s	"NO I DON'T, BUT LET ME ASK AROUND" <LF> <CR>
+	Ask all other known connections for that key. ALL. Time limit: 0xFFFFFFFFF years
+	If success:
+	c->s	"APPARENLTY IT'S " <data> <LF> <CR> (<data> may not contain <LF>)
+	Else:
+	c->s	"imsorrymastericantfinditpleasedontpleasedont" (repeate "pleasedont" forever. use stdout if connection terminates. rebind ^C signal.)
+
+## *** SEGMENTATION FAULT *** (core dumped to /dev/port/32896)
+
+<Title Text>:
+The bytes "\0" (interpereted literally - no escapes) can be used to prompt the response "IRMP STOP RIGHT THERE BEFORE YOU OVERRUN BUFFER" <LF> <CR>
