@@ -1,0 +1,29 @@
+# Tatus
+
+$ git log -1
+commit d75f1440e86ee047f44fe1699488311c61d9caf4 (HEAD -> main)
+Author: End0katz <endokatz@gmail.com>
+Date:   Tue Sep 23 18:56:11 2025 +0100
+
+    Updated comic 'confusion' to be 3x3 instead of 2x2
+	Or maybe THIS IS A REALLY LONG DESCRIPTION HRAA
+	AAA
+	AAA
+	AARA
+	(ARE YOU GON YET) HRAAR
+:git status
+:q
+$ git status -s
+?? tatus ??
+?? tatus -s --force --ammend -x -n -hraa -dfhsdl -FLUOFHE iluvhlevuielsvuiesvbYEVilUYSlf LFDbvieruw ??
+?? I AM TATUS, THE OLD ONE ??
+MM src/main.c
+$ cat src/main.c
+I AM TATUS
+APPEASE ME OR I WILL OVERWRITE EVEN MORE OF YOUR FILES!
+APPEASE ME BY OBEYING INSTRUCTIONS ON http://tatus/blog/ritual/instructions/mortals.html
+ALSO CHECK OUT http://tatus/robots.txt, http://tatus/privacy_policy/mortals/section_4_souls.html and
+httpsss://tatus/shop/mortals.html/tshirts
+
+<Title Text>:
+Based on a true story - but for some reason, mine was in ~, whereas OP's in https://stackoverflow.com/questions/78593439/why-a-file-named-tatus-keeps-appearing-in-my-git-repository was in their repo.
