@@ -1,0 +1,25 @@
+# METAGIT
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#       modified:   src/main.c
+#	modified:   src/README.md
+#	modified:   LICENSE
+#	modified:   .gitignore
+#       new file:   .git/markers/update_timestamp_on_switch_branch
+#	modified:   otherrepo/.git/refs/HEAD
+#	new file:   a.out
+#	new file:   core
+#	new file:   lib/m.so
+#	new file:   Makefile
+#	new file:   src/Makefile
+#	gnu file:   GNUMakefile
+#	modified:   otherrepo/repo.that.other.repo.is.tracking/oh.no/.../.git
+
+<Title Text>:
+That's not submodules. THAT'S NOT SUBMODULES! t h a t s n o t s u b m o d u l e s .

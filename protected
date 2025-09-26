@@ -1,0 +1,28 @@
+# protected
+
+Java defines 4 different publicity levels:
+	Public ("public") can be viewed by anyone.
+	Package-private ("") can be viewed by others in the same package.
+	Protected ("protected") can be viewed by suclasses only.
+	Private ("private") can be viewed by no-one other than the class defining it.
+
+However, modern cryptogrophy only uses 2:
+	Public ("public") is sent over the network
+	Private ("private") is kept a secret
+
+INTRODUCING: Protected Key Cryptogrophy
+
+The protected key is sent to trusted individuals (e.g. server, friends, microsoft inevitably on windows), over encryption.
+
+SIGNING:
+	Private key creates sign
+	Public key validates sign
+	Protected key validates private key
+
+ENCRYPTION:
+	Public key encrypts messages
+	Private key decrypts them
+	Protected key applies further optional symmetric encoding to the message, in a way such that the private key can determine if it was used or not.
+
+<Title Text>:
+The package-private key allows other pids to decrypt data encoded with the package-public key

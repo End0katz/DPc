@@ -1,0 +1,45 @@
+# Simple Chatbot Idea
+
+double parser_state = 0.0;
+double line_state = 0.0;
+const char* word = 0;
+size_t wordlen = 0;
+
+const char* get_wd(const char* c) {
+	word = c;
+	wordlen = 0;
+	int i;
+	for (i = 0; c[i]; i++) {
+		switch(c[i]) {
+		case ' ':
+			parser_state *= 0.25;
+			// End loop early - c[i] will return \0 next
+			// Only affects local c
+			c = "\0";
+			break;
+		case '-':
+			parser_state *= 0.5;
+			c = "\0";
+			break;
+		case '\n':
+			c = "\0";
+			return 0;
+			// End of line - call print_response(line_state, stdout) or similar next
+		default:
+			wordlen++;
+		}
+	}
+	return c + i;
+};
+
+void parse_wd(void) {
+	// lookup for op and operand
+	// * applies to parser_state
+	// + applies to line_state
+	// not = * -0.5
+	// very = * 1.5
+	// happy = + 1 (1 is multiplied by parser_state before addition)
+	// unknown words are tallied up letter-by-letter
+};
+
+void print_response(double line_stat, FILE* out);

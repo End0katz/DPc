@@ -1,0 +1,10 @@
+# RFC
+
+Introducing: ARFC (Alternative Requests For Comment)
+
+Instead of the whole superseeds-updates-obsoletes dependency logic that RFC has, ARFC presents single sources of truth.
+* Updates list the new version followed by a diff
+* Modules and extensions can be listed underneath
+
+<Title Text>:
+IP over <other thing> requires that you include the entire IP and <other thing> spec.

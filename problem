@@ -1,0 +1,16 @@
+# Spot The Problem
+
+DNS over TCP over IP
+
+Spot the problem
+
+Type "answer" and check the title text for answer
+
+<Title Text>:
+hint - no passwords, please
+
+<Title Text after typing ans>:
+hint - http
+
+<Title Text after typing answer>:
+answer - there is no tls

@@ -1,0 +1,10 @@
+# Kill
+
+Herobrine has joined the game
+[Herobrine] FEAR ME MORTALS
+/tp 0 0 0
+/kill Herobrine
+/kill -9 Herobrine
+
+<Title Text>:
+/sudo kill -9 -99 -666 Herobrine /ban Herobrine /ban-ip Herobrine /enable-CIDR /ban-ip Herobrine/16

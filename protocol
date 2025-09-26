@@ -1,0 +1,21 @@
+# Protocol
+
+1) Most protcols allow sending of arbitrary data
+2) Protcols can be represented as arbitrary data
+
+NAME	SENDING	RECEIVING
+IP	YES	YES
+TCP	YES	YES
+UDP	YES	NOT REALLY
+TLS	YES	YES
+HTTP	YES	YES
+SMTP	YES	YES
+FTP	YES	YES
+SSH	YES	YES
+DNS	IF YOU TRY HARD ENOUGH >:)
+minecraft	IF YOU HAVE NOTHING BETTER TO DO
+portal 2	IF THAT FAMILY WASN'T THAT IMPORTANT TO YOU ANYWAY
+avian carriers	IF YOU THINK I SHOULD HAVE LET PORTAL 2 BE THE PUNCHLINE
+
+<Title Text>:
+dig @8.8.8.8 domain3parts.yeetus.example.com.sector0dots.shop.sector1dots.index.html XZ_COMPRESSED_HTTP (ignore that google controls 8.8.8.8)
