@@ -11,8 +11,8 @@ An SD card and a small USB stick are in frame
 * Only has enough space for 1 file
 * That file is about 1mb and contains a private key
 * Comes with a remote (the usb stick) containing a public key
-* The card's build-int CPU reads from whatever computer the USB stick is plugged into
-* File IO cannot access the on-board file - it uses the remote stick
+* The card's build-in CPU reads from whatever computer the USB stick is plugged into
+* Any attempts at communication with the RMSD instead talks to the remote.
 * Comes in SD, MicroSD, MacroSD, NanoSD and GigaSD sizes
 
 [panel 2]
@@ -42,7 +42,7 @@ A device that looks like a hard disk drive with a USB port on top, and 5 cables 
 	SD Card Rack (also has microSD variant)
 	Rubix cube (what? It's just about the right size!)
 * The starter pack comes with 27 modules - 8 corners, 12 edges, 6 sides and 1 central - all filled with HDD cores
-* All modules are designed to be easily put togetherr and mediumly taken apart
+* All modules are designed to be easily put together and mediumly taken apart
 
 
 [panel 4]

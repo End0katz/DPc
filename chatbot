@@ -43,3 +43,6 @@ void parse_wd(void) {
 };
 
 void print_response(double line_stat, FILE* out);
+
+<Title Text>:
+>NC:A is what happens when you try and type "ELIZA" on a Dvorak keyboard with Qwerty keycaps. Like how I call my dog eri in some games.

@@ -8,4 +8,4 @@ Rounding to nearest 10, then 100
 50(3): 5 >= 5; 100
 
 <Title Text>:
-5ead(2): a >= 8; 5eb0. Also, no FD was passed.
+5ead(2): a >= 8; 5eb0. read(2): no fd was passed; terminating.
