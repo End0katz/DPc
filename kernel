@@ -1,0 +1,16 @@
+# Kernels
+
+Normal kernel:
+* VFS
+* Drivers
+* Graphics
+* Internet
+* Security
+...
+
+Microkernel:
+* IPC
+
+<Title Text>:
+Can't we just let the processess sort out IPC for themselves? No? ... Can't we just let processes exist and they can simulate virtual processess and IPC if they want to?
+
