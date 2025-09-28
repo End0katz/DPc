@@ -1,0 +1,7 @@
+# Stashes
+
+"This code isn't working out for me"
+$ git add --all && git stash && git stash drop
+
+<Title Text>:
+"git stash stop drop & roll" looks like the correct way to extinguish a repo, but you actually need "git stash stop drop && roll".
