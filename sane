@@ -23,7 +23,7 @@ Checking if the build environment has root password...	Done
 Checking if the build environment is a chroot jail...	Done
 Checking internet connection...				Done
 Researching how to break out of chroot jail...		Done^C
-Checkinf if rebinding of ^C signal worked...		Done
+Checking if rebinding of ^C signal worked...		Done
 
 <Title Text>:
 Done != Success
