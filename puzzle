@@ -1,0 +1,18 @@
+# Puzzles
+
+Puzzles can be made arbitraraly hard if you try hard enough
+
+1) Start with a crossword
+2) Put all the clues in pig latin
+3) Replace the clues with anagrams of the clues
+4) Add 2 junk letters into each clue
+5) Replace each letter with a number; to revert, use US_DECLERAION_INDEPENDANCE[n]
+...
+1334) Treat each number as the decimal value of a unicode code point. Convert to UTF-8 and write those bytes down instead
+1335) Take the SHA-3 hash (8192 :BYTES:) of the entire message. Provide only that, written down in base64 (dont provide charset)
+1336) Encode using RSA; provide only public key
+1337) Xor every prime-numbered byte with the byte after it
+1338) Done! [optional]
+
+<Title Text>:
+Decrypt this message to the US president. Email the value to clues@totally.notsus.gov.ru to get next stage of clue.

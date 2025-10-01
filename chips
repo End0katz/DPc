@@ -1,0 +1,45 @@
+# Chips
+
+Jim's hardware store - now sells chips!
+
+(High and low pins ommitted for brevity)
+
+[panel 1]
+Physistack
+
+* 9 data pins (use 1 as a frame indicator or a special byte indicator)
+* 1 push pin (reads data from data pins)
+* 1 pop pin (writes data to data pins)
+* 1 len pin (writes length to data pins)
+* 4 internal pins
+
+Each pin also has a pin-slot above it.
+This allows you to attach another Physistack pin to it and, through the power of deffering, INFINITE STACK.
+
+[panel 2]
+Devnull
+
+* Looks like a RAM chip
+* Reads return 0
+* Writes report success
+* On reading, set one of 3 lines high:
+  * On 0x0, set line 1 (null ptr) high
+  * On 0x1, set line 2 (of by one) high
+  * Otherwise, set line 3 (string overrun) high
+* Setting a line high may print an error msg
+
+[panel 3]
+AI
+
+* Looks like a RAM chip
+* Instead of storing RAM (expensive), store a CPU running a NNET trained to predict what to do on reads/writes
+* Intelligent prediction can remove need for math!
+
+[panel 4]
+Fish
+
+* Someone got confused
+* We are out of salt
+
+<Title Text>:
+Fish & Chips (no salt - we use more chips, but ground up into a powder, instead)

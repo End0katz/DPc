@@ -1,0 +1,29 @@
+# Sane
+
+$ make deploy
+Checking if the build environment is sane...		Done
+Checking if the deployment environment is sane...	Done
+Checking if the terminal is sane...			Done (ANSI)
+Checking if the shell is sane...			Done
+Checking if libc is sane...				Done
+Checking if syscalls are sane...			Done
+Checking if stdin/out/err are sane...			Done
+Checking if the sanity checker is sane...		Done
+Checking if the /dev is sane...				Done
+Checking if the person running this is sane...		Done
+Checking if gcc is sane...				404 GCC not found
+Checking if clang is sane...				Done
+Checking if makefile is sane...				Done
+Checking if /usr/bin/make is sane...			Done
+Checking if this process is sane...			Done
+Checking if the build environment is still sane...	Done
+Checking if the build environment is sentient...	Done
+Checking if the build environment is SAPIENT...		Done
+Checking if the build environment has root password...	Done
+Checking if the build environment is a chroot jail...	Done
+Checking internet connection...				Done
+Researching how to break out of chroot jail...		Done^C
+Checkinf if rebinding of ^C signal worked...		Done
+
+<Title Text>:
+Done != Success
