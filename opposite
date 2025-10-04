@@ -1,0 +1,12 @@
+# Opposite
+
+NAME	WHAT IT DOES		NEW	REASON
+more	display paged output	less	allow going backwards - less = backwards more
+top	Table Of Processes	bottom	Bintree Of Totally Trustable Ontological Magic
+
+<Title Text>:
+head - first n lines.
+tail - last n line.
+neck - medium-first n lines.
+legs - medium-last n lines.
+body - everything else

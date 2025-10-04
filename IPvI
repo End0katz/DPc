@@ -1,0 +1,54 @@
+# IPvI
+
+IPvI (or IPvsqrt(-1))
+
+ADRESSING:
+
+An IPvI addr is only 8 bits. Unlike IPv4/6, where subnetting was unlikely to affect the average blogger, IPvI is thourougly subnetted.
+
+The method to write out an IPvI address is as follows:
+1)	Take the address, in a byte format (e.g. 0x36)
+2)	Convert it to binary (e.g. 0b00110110)
+3)	If CIDR where N bits free to roam: remove last N digits and add "/" (e.g. 0b00001/ instead of 0b00001000/5)
+4)	Replace each run of 0s with the length of that run, in base 5, using the digits "02468" instead of "01234" (e.g. 4112112)
+5)	Replace each run of 1s with the length of that run, in base 5, using the digits "13579" instead of "01234" (e.g. 45252)
+6)	An address starting with ":" means to go to up to the supernet. "::" means the supernet's supernet, and so on.
+	.37 can also be used if needed, but this is advised against
+7)	An address followed by "." and another address means to IP over IP a message to that supernet, where the first address is that of it's network master in our network.
+8)	A network can be specified by name by prefixing the name with "$", making sure the name conforms to /[a-z]+/, and 
+	The recognised names are:
+		glxy	(The milky way)
+		marm	(Our arm of the milky way)
+		syst	(Any planet in out solar system)
+		wrld	(The toplevel for world)
+	e.g. $world:334
+
+
+Any IPvI addr starting with 0xF is reserved:
+
+Hex	Binary		IPvI	Purpose
+0xFF	11111111	37	Message to supernet. IP over IP.
+0xFE	11111110	352	Loopback addr
+0xFD	11111101	3323	Undefined addr
+0xFC	11111100	334	The network master (Packets to 0xFF are also sent here, but handled differently)
+0xFB	11111011	3125	Unknown addr
+0xFA	11111010	31232	Unknown purpose
+0xF9	11111001	3143	Unassigned
+0xF8	11111000	316	Devnull
+0xF7	11110111	927	Anonymous
+0xF6	11110110	9252	Malicious (ignore any packets saying they come from here)
+0xF5	11110101	92323	WHOIS
+0xF4	11110100	9234	WHOISN'T
+0xF3	11110011	945	WHATIS
+0xF2	11110010	9432	Screenshot
+0xF1	11110001	963	Emergency
+0xF0	11110000	98	Command subnet (no addrs assigned as of writing)
+
+This arrangement makes the 240 addrs 0x00-0xEF assignable by the network master.
+
+RECOMMENDED MAPPING
+
+$glxy:<arm>:<sector>:<system>:<planet>:<time zone>:<latitude>:<country>:<city>:<street>:<home>
+
+<Title Text>:
+2323432.234343.2323234.23232323.23203.23454 is the RITUAL addr - convert to hex, then to ASCII, to complete

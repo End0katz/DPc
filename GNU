@@ -1,0 +1,16 @@
+# GNU
+
+<A set of 5 boxes. 4 are in the middle, forming a square, all connected, whilst the other is an outcast>
+<All arrows have ??? on them>
+
+[box 1]	Linux
+[box 2]	GNU
+[box 3]	POSIX
+[box 4]	Unix
+
+<And, on the outside, connected to box 4 only:>
+[box 5]	Multix
+
+<Title Text>:
+IP over GNU under GNU/Linux
+

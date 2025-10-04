@@ -1,0 +1,28 @@
+# Which
+
+|_| /-
+| | \-
+H Chat
+
+<chat zoop:sudox 12:00 1/12/25>
+[zoop]	You know bash?
+[sudox]	$(which bash)?
+/bin/bash
+[sudox]	Oh, that one
+[zoop]	And you know python?
+[sudox]	$(which python)?
+/home/bin/py2/python
+/home/bin/py3/python
+[sudox]	I have 2
+[zoop]	And you know notsus.bash.py?
+[sudox]	$(which notsus.bash.py)?
+[sudox]	I think you installed some malware
+[zoop]	Help
+[sudox]	*sigh*
+[sudox] Can you temporarly add a root passwd so I can get in?
+[zoop]	_pass1234_
+<sudox has gone offline 12:05>
+</chat ongoing>
+
+<Title Text>:
+#!/usr/bin/curl -o

@@ -1,0 +1,8 @@
+# Heart attack
+
+How to give a program cardiac arrest:
+
+$ kill -SIGSEGV $(pidof a.out)
+
+<Title Text>:
+ASAN is like a paramedic

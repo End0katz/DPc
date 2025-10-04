@@ -1,0 +1,23 @@
+# Devip
+
+/devip contains a bunch of ip-related bdev/cdevs.
+
+## ADDR ALLOCATORS
+
+/devip/4mk/std	<normal allocation>
+/devip/4mk/slf	127.0.0.1
+/devip/6mk/std	<normal allocation>
+/devip/6mk/udf	:: (ipv6 undefined addr)
+/devip/6mk/slf	::1
+
+/devip/4mk/ful
+/devip/6mk/ful
+	Great way to test how program reacts to a filled IP disc drive
+	Equivilent to /dev/full
+
+## Networking
+
+<text goes off-panel and is unreadable>
+
+<Title Text>:
+./build >/devip/6mk/nul

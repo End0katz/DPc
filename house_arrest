@@ -1,0 +1,13 @@
+# House arrest
+
+$ cat >>~branch/.bashrc <<EOF
+> 
+> # House arrest
+> # Runs sudo earlier in bashrc
+> sudo chroot ~branch/jail || poweroff
+> echo 'You Are Under House Arrest!'
+> EOF
+$ 
+
+<Title Text>:
+"The size of the command has no affect on the interval crontab runs it at" - Galileo, 2000
