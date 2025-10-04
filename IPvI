@@ -40,7 +40,7 @@ Hex	Binary		IPvI	Purpose
 0xF5	11110101	92323	WHOIS
 0xF4	11110100	9234	WHOISN'T
 0xF3	11110011	945	WHATIS
-0xF2	11110010	9432	Screenshot
+0xF2	11110010	9432	Black Hole
 0xF1	11110001	963	Emergency
 0xF0	11110000	98	Command subnet (no addrs assigned as of writing)
 
