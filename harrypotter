@@ -1,0 +1,9 @@
+# Harry Potter
+
+<Harry potter and voldemort are fighting>
+
+[voldemort]	Avada Kedavra
+[harry potter]	kill -9 $(pidof voldemort)
+
+<Title Text>:
+Subprocesses like spellcast_wrapper are also terminated
