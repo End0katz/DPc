@@ -1,0 +1,17 @@
+# Rolling
+
+Earth update 6oct25/c21a
+Patch notes:
+* Fixed critical security vulnerability
+* Removed accidental debug rendering mode from previous update
+* Apparently nobody merged with the season-update branch?
+* Optimised performance
+* Now free(3)s memory in star_render
+* Fixed overheating CPU bug
+* Improved body heat extraction
+  * Should be enough to charge up the mega-laser and destroy Neo
+* Changed physics engine to use source - budget cuts
+
+<Title Text>:
+Rolling updates are important to prevent global outages. Sorry, UTC+14:00.
+
