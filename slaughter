@@ -1,0 +1,13 @@
+# slaughter
+
+$ sudo slaughter -9 2300
+
+Choosing pids x2300: ... Done
+kill -9 5749
+kill -9 542
+kill -9 052
+kill -9 0
+kill -9 1
+
+<Title Text>:
+The first rule of slaughter club is to not look up the manpage for slaughter, especially if you have a keylogger. info slaughter is fine though.
