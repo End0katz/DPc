@@ -2,9 +2,29 @@
 
 $ man "ritual(1)" | grep -E "SYNOPSIS|INVOCATION" -C1
 INVOCATION
-	ritual <victim> <sacrifices> <name of old god> <true name of demon> <blood>
 
-$
+	The pentagon's circle, the blackened bone,
+	The true names of demons, carved into the stone,
+	0x13 candles, and a sacrifice that squirms,
+	As the sky turns blood red;
+		and the waters burn.
+
+INCANTATION
+
+���+�>O�3�j����*9�
+<tqP��>=�����0�Q�����iw��������y�P6���G���l?ph/B��~�=Q����L���0�e�D�*{��08��fb-�/�򀜻Bm��I�"�o.��Sr3�dE���`4�r"���ȉX��]���a�������[�hF����zJ
+                                                                                                                                          �%����&ro'r�S!&<�z�
+YJ!z���\,�Ikk[�|�E�y�ְn��ȭ�CAg��
+                               ����¤�#�{�l�
+�������oj�!�����G���nj�1z�%�c-F&_l��:���,�t���>�y�"�����i,mQެ�ɾ0��)8,�X�l���,B�ډ�/��e�����G�.ߦ��`��W=�$� q�`����[��PWͲhk�<�='\]���w#d}N�ƛb&ӡ]**��
+                                                                                    po�u�Ԗ��rWT��E��&
+                                                                                                    �|�&�P�ݪ��W���k;l�Ӭ��X�s�D �"5a�����ߧG>�;��R����}���U�rV�,�Z�R�"J-˅Yޟj�s؍��o��_�z��Ab�3�,`[~�	\�oZ+Ƒ�Kg�^)r�.a�q�C/!����Db�śD��H���Ya�Z\���49���*�ͨFo�>6����|�Ė��
+�qHނ��<���{�6����}6SR[�����_�4���[��p
+                                     �տ�Ut
+���%b�ǽG�]�ȫ������
+                  �O�y�d����Fޞ��J����n�f)�GS�����Y��_�%�;7|��"¼�#�YJ!�w�V�����
+z��%l�mЇ-�����(�:ޭ�M����;�"0�                                                  �;��
+���;�����Ky^��A��R�j����D|�m�a��А1qiu�R��*��8~B�~�v�;���BVsdW6%�ق_��4�����LG�]�.�u��kԁđi��i�2s��c15���J�r/�Q�\�T��_Y�{���ތ�G��=�u�C��@5��_�!�M+�^i�+�W�A_��	�j!�f�l�Ѯ���VgM�a氭
 
 <Title Text>:
-man "corpse(3type)"
+man "corpse(3type)" "octopus(3type)"
