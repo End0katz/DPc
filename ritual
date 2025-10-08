@@ -1,0 +1,10 @@
+# Ritual
+
+$ man "ritual(1)" | grep -E "SYNOPSIS|INVOCATION" -C1
+INVOCATION
+	ritual <victim> <sacrifices> <name of old god> <true name of demon> <blood>
+
+$
+
+<Title Text>:
+man "corpse(3type)"

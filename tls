@@ -1,0 +1,12 @@
+# Tls
+
+Fun fact:
+SSH is broken down into 3 protocols - The transport, userauth and connection protocols.
+What we call SSH is SSH-CONNECTION (channels, e.g. shell) over SSH-USERAUTH (login) over SSH-TRANSPORT (host verification and encryption)
+
+I would like to propose 2 new protocols:
+* httpssh: http over SSH-TRANSPORT
+* tsh: SSH-CONNECTION over SSH-USERAUTH over TLS
+
+<Title Text>:
+SSH over TELNET

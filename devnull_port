@@ -1,0 +1,12 @@
+# Devnull port
+
+$ nc -l devnull >/dev/null &
+$ nc localhost devnull
+Hello!
+No text seems to be being printed...
+Success!
+Time to modify my .bashrc
+^C
+
+<Title Text>:
+nc $(etchosts_lookup blackhole_ipv6) /dev/port/null
