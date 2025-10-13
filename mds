@@ -1,0 +1,8 @@
+# MDS
+
+Missile Defense System:
+
+$ kill -9 $(pidof kill)
+
+<Title Text>:
+It self-destructs, but it can still be reused somehow. You can easily fix this with sudo rm.

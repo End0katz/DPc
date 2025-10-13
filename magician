@@ -1,0 +1,16 @@
+# Magician
+
+[magician]	And for my next trick, I will demonstrate a use-after-free with no side effects
+[audience]	Oooh!
+
+<Title Text 25% chance>:
+Just like real magicians, he will only work in a controlled build environment
+
+<Title Text 25% chance>:
+~bin/gcc -o $@ $<
+
+<Title Text 25% chance>:
+Penn and Teller are known for extreme reverse engineering
+
+<Title Text 25% chances>:
+He keeps condiments nearby so that people will stop asking him to be open-source
