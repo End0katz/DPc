@@ -1,0 +1,27 @@
+# Extrapolate
+
+
+Atoms in each row of the periodic table:
+2, 8, 8, 18, 18, 32, 32
+
+Delta
+2, 6, 0, 10, 0, 14, 0
+
+
+Without zeroes
+
+2, 6, 10, 14
+
+Delta of Delta
+
+2, 4, 4, 4
+
+<The 4s are circled in red>
+
+
+EXTRAPOLATION
+
+2, 8, 8, 18, 18, 32, 32, 48, 48, 68, 68, 92, 92
+
+<Title Text>:
+The biggest atomic number is 702. After that, we start needing 3-letter symbols

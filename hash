@@ -1,0 +1,19 @@
+# Hash
+
+<A chrome browser page>
+<The URL is indistinguishable>
+
+
+TASK 256:
+
+
+Find a string s such that Argon2id(s || sha512("littleBunny")) starts with a string matching the regex
+
+	/' *\) *; *DROP +TABLE +userpersonaldata *; *--/
+
+You will be given a 50/50 split in the bug bounty rewards
+
+s = ___________
+
+<Title Text>:
+Remember to append the salt BEFORE hashing.

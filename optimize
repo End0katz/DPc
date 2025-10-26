@@ -1,0 +1,31 @@
+# Optimize
+
+[panel 1]
+$ make benchmark >out/benchmarks
+$ ./benchmark-graph.sh
+
+<A bar chart, with 5 bars. Bar 5 is the lowest. no text can be made out>
+
+[panels 2-4]
+<The 5th bar gets increasingly higher, ending on panel 4 with it being the highest>
+
+Text at top:
+	2	Uh, still not fast enough
+	3	Just a little faster
+	4	Yes! The fastest editor there is!
+
+[panel 5]
+
+$ make build
+$ make benchmark >out/benchmarks
+$ ...
+$ cat BUILDING.md | grep release -C1
+To build with ASAN use "make build".
+To build with -O3 use "make releasebuild"
+To build with neither use "make semidevbuild"
+$ make releasebuild
+$ make benchmark >out/benchmarks
+$ ./benchmark-graph.sh --logarithmic
+
+<Title Text>:
+Premature optimization is the root of all high-performance applications.
